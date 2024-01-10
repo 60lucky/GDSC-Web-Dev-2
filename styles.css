@@ -1,0 +1,71 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+
+  header {
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo img {
+    height: 15px;
+    width: auto;
+    align-self: first baseline;
+  }
+
+  .logo a  {
+    font-weight: bold;
+   text-decoration: none;
+   color: aliceblue;
+   display: flex;
+   align-items: center;
+   margin-right: 20px;
+  }
+  
+  .menu {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .menu li {
+    margin-right: 20px;
+  }
+  
+  .menu li:last-child {
+    margin-right: 0;
+  }
+  
+  .menu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: lighter;
+  }
+  
+  .search input[type="text"] {
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(86, 85, 85);
+    justify-content: left;
+  }
+  
+  .buy button {
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    margin-left: 5px;
+    cursor: pointer;
+  }
+
+  .search input[type="text"]::placeholder {
+    color: #ffffff;
+  }
+  
